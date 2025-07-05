@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hồ Chí Thắng - Cyber Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas class="matrix-bg"></canvas>
+  <div class="container">
+    <img class="avatar" src="https://en.gundam.info/about-gundam/series-pages/witch/gwitch/jp/character/2023/05/205_front_s.png" alt="avatar">
+    <h1>Hồ Chí Thắng</h1>
+    <div class="typing" id="typingText"></div>
+    <div class="info">
+      <a href="tel:0898362548">📞 089 836 25 48</a>
+      <a href="https://www.facebook.com/hochi69?mibextid=wwXIfr" target="_blank">👤 Facebook</a>
+      <a href="https://github.com/thanghope" target="_blank">🐱 GitHub</a>
+      <a href="cv/Thang-CV.pdf" download>📄 Tải CV</a>
+    </div>
+    <div class="projects" id="projects"></div>
+    <audio id="bgMusic" src="assets/phonk-epic.mp3" loop></audio>
+    <button onclick="toggleMusic()" class="music-toggle">🎵 Nhạc</button>
+    <button onclick="toggleTheme()" class="theme-toggle">🌓 Giao diện</button>
+  </div>
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
