@@ -1,19 +1,19 @@
 
 const projects = [
   {
-    name: "superchat",
-    description: "Ứng dụng chat online siêu hay ho, có đăng nhập, MongoDB lưu trữ.",
-    github: "https://github.com/thanghope/superchat"
+    name: "morse-study",
+    description: "Ứng dụng học mã morse siêu hay ho đơn giản.",
+    github: "https://thanghope.github.io/morse-game/"
   },
   {
     name: "quiz-maker",
     description: "Web tạo và làm bài trắc nghiệm có lọc câu sai, giao diện đẹp.",
-    github: "https://github.com/thanghope/quiz-maker"
+    github: "https://thanghope.github.io/Quiz-Tool/"
   },
   {
     name: "studytimer-full",
     description: "App học Pomodoro có đếm giờ, lưu lịch sử, giao diện tối/sáng.",
-    github: "https://github.com/thanghope/studytimer-full"
+    github: " https://thanghope.github.io/Studytimer/"
   }
 ];
 
